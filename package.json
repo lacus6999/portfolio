@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && rm -r /var/lib/tomcat9/webapps/ROOT/* && mv build/* /var/lib/tomcat9/webapps/ROOT/",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
