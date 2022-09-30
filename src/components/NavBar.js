@@ -10,7 +10,9 @@ const styles = {
 
 const NavBar = () => {
     return (
-        "kacsa"
+        <Grid style={styles}>
+            kacsa
+        </Grid>
     );
 };
 
