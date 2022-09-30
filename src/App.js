@@ -1,14 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import {Button, Grid} from "@mui/material";
+import AppFrame from "./components/AppFrame";
 
 function App() {
     return (
-        <div className="App">
-            <header className="App-header">
-                <img alt={"kacsa"} width={'100%'}
-                     src={"https://external-preview.redd.it/ECYwxWn-Ib1sedqi156Lu7HJ7QJLw4lVET8fJyK43sU.jpg?auto=webp&s=3bb088303d30740e6a6d94cbe3c13c542ef589e5"}/>
-            </header>
-        </div>
+        <AppFrame>
+            <Grid container>
+                <Grid item>
+                    <Button >Hello World</Button>
+                </Grid>
+            </Grid>
+        </AppFrame>
     );
 }
 
