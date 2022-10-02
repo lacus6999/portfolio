@@ -1,4 +1,4 @@
-import {Grid, Typography} from "@mui/material";
+import {Grid} from "@mui/material";
 
 const styles = {
     backgroundColor: '#000',
@@ -6,17 +6,18 @@ const styles = {
     justifyContent: 'center',
     padding: 25,
     display: 'flex',
+    color: 'red'
 }
 
 const NavBar = () => {
     return (
-        <Grid style={styles}>
-            <Typography>
+        <Grid flexDirection={"column"} style={styles} >
+            <Grid item>
                 kacsa
-            </Typography>
-            <Typography>
+            </Grid>
+            <Grid item>
                 SOOOK kacsa
-            </Typography>
+            </Grid>
 
         </Grid>
     );
