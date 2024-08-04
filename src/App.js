@@ -7,7 +7,7 @@ function App() {
         <AppFrame>
             <Grid container>
                 <Grid item>
-                    <Button >Hello World</Button>
+                    <Button >Hello World Test</Button>
                 </Grid>
             </Grid>
         </AppFrame>
